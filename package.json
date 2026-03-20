@@ -1,0 +1,25 @@
+{
+  "name": "28-30-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --no-deprecation server.js",
+    "dev": "node --no-deprecation server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "directories": {
+    "doc": "docs"
+  }
+}

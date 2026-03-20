@@ -1,0 +1,26 @@
+tags:
+  name: PVZ
+  description: Пункты выдачи заказов (список статический)
+
+paths:
+  /api/pvz:
+    get:
+      summary: Получить список всех пунктов выдачи
+      tags: [PVZ]
+      description: Возвращает все доступные ПВЗ (хардкод в БД)
+      responses:
+        '200':
+          description: Список ПВЗ
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    address:
+                      type: string
+                    city:
+                      type: string
